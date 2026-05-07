@@ -1,0 +1,19 @@
+num = 1
+triangle = 0
+
+while True:
+    triangle += num
+    num += 1
+
+    divisors = 0
+
+    for i in range(1, int(triangle**0.5) + 1):
+        if triangle % i == 0:
+            divisors += 2
+
+    if int(triangle**0.5) ** 2 == triangle:
+        divisors -= 1
+
+    if divisors > 500:
+        print(triangle)
+        break
