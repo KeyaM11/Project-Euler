@@ -1,0 +1,10 @@
+number = 2 ** 1000
+
+digits = str(number)
+
+total = 0
+
+for digit in digits:
+    total = total + int(digit)
+
+print(total)
