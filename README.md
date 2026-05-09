@@ -11,7 +11,13 @@ So far I’ve done 8 problems:
 - Smallest multiple (LCM)  
 - Sum square difference  
 - 10,001st prime  
-- Largest product in a series  
+- Largest product in a series
+- Special Pythagorean Triplet
+- Summation of Primes
+- Largest Product in a Grid
+- Highly Divisible Triangular Number
+- Large Sum
+- Longest Collatz Sequence  
 
 ## 🎯 Goal
 Just trying to get better at:
